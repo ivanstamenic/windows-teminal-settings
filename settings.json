@@ -33,7 +33,9 @@
                 "backgroundImageStretchMode" : "none",
                 "backgroundImageAlignment" : "bottomRight",
                 "backgroundImageOpacity" : 0.3,
-                "colorScheme" : "One Half Dark",
+                //"colorScheme" : "One Half Dark",
+                "colorScheme" : "Chesterz", //"One Half Dark",
+                "fontFace": "Cascadia Code PL",
                 "startingDirectory": null
             },
             {
@@ -65,12 +67,6 @@
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\ivasta00"
             },
             {
-                "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
-                "name": "Legacy",
-                "source": "Windows.Terminal.Wsl",
-                "hidden": false
-            },
-            {
                 "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
                 "name": "Kali",
                 "source": "Windows.Terminal.Wsl",
@@ -83,12 +79,6 @@
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure",
                 "hidden": false
-            },
-            {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -99,7 +89,6 @@
 
             "background":  "#000000",
             "foreground":  "#00FF00"
-
         },
         {
             "name":  "Ubuntu",
@@ -123,6 +112,29 @@
             "brightRed":  "#EF2929",
             "brightWhite":  "#EEEEEE",
             "brightYellow":  "#FCE94F"
+        },
+        {
+            "name":  "Chesterz",
+
+            "background":  "#2C3643",
+            "foreground":  "#FFFFFF",
+
+            "black":  "#080200",
+            "blue":  "#288AD6",
+            "cyan":  "#28DDDE",
+            "green":  "#16C98D",
+            "purple":  "#D34590",
+            "red":  "#FA5E5B",
+            "white":  "#E7E7E7",
+            "yellow":  "#FFC83F",
+            "brightBlack":  "#6F6B68",
+            "brightBlue":  "#278AD6",
+            "brightCyan":  "#27DEDE",
+            "brightGreen":  "#16C98D",
+            "brightPurple":  "#D34590",
+            "brightRed":  "#FA5E5B",
+            "brightWhite":  "#FFFFFF",
+            "brightYellow":  "#FEEF6D"
         }
     ],
 
